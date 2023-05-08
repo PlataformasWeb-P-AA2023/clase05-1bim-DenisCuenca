@@ -11,3 +11,4 @@ def index():
 @app.route('/persona/<id>')
 def persona(id):
     return render_template('persona.html', id=id)
+
